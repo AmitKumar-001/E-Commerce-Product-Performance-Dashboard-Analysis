@@ -1,18 +1,18 @@
 # E-Commerce Product Performance Dashboard & Analysis 📊
 
-![Dashboard Overview](Dashboard.pdf)
+[Dashboard Overview](Dashboard.pdf)
 
 ## Overview
-As a non-technical professional transitioning to a data analyst role, I built this project to demonstrate my skills in data cleaning, exploratory data analysis (EDA), and visualization. This project analyzes a synthetic e-commerce dataset to understand sales patterns, customer preferences, and factors influencing return rates. I created interactive dashboards in Power BI to visualize product performance and category-wise trends, delivering actionable insights to optimize pricing, reduce returns, and improve stock and delivery planning.
+As a non-technical professional transitioning to a data analyst role, I built this project to demonstrate my skills in data cleaning, exploratory data analysis (EDA), and visualisation. This project analyses a synthetic e-commerce dataset to understand sales patterns, customer preferences, and factors influencing return rates. I created interactive dashboards in Power BI to visualise product performance and category-wise trends, delivering actionable insights to optimise pricing, reduce returns, and improve stock and delivery planning.
 
 ---
 
 ## Objective 🔖
-- Analyze an e-commerce dataset focusing on price, ratings, returns, and delivery trends.
+- Analyse an e-commerce dataset focusing on price, ratings, returns, and delivery trends.
 - Identify top-performing products and categories in terms of revenue and profit.
-- Understand customer behavior through EDA and visualizations.
+- Understand customer behaviour through EDA and visualisations.
 - Create interactive dashboards in Power BI to present findings.
-- Deliver business insights to optimize pricing, reduce return rates, and improve stock and delivery strategies.
+- Deliver business insights to optimise pricing, reduce return rates, and improve stock and delivery strategies.
 
 ---
 
@@ -61,12 +61,12 @@ The dataset was cleaned by handling missing values (~5% initially), verifying ou
    - Formatted `Stock_Availability` (binary: 0 or 1, with 1816 in stock, 184 out of stock).
 
 2. **Exploratory Data Analysis (EDA)**:
-   - Visualized distributions (e.g., `Product_Price` is right-skewed, `Product_Rating` is left-skewed).
-   - Analyzed relationships (e.g., no strong correlations; highest: 0.0426 between `Discount_Rate` and `Number_of_Reviews`).
+   - Visualised distributions (e.g., `Product_Price` is right-skewed, `Product_Rating` is left-skewed).
+   - Analysed relationships (e.g., no strong correlations; highest: 0.0426 between `Discount_Rate` and `Number_of_Reviews`).
    - Explored `Category_ID` vs `Return_Rate`, `Discount_Rate` vs `Return_Rate`, and `Days_to_Deliver` vs `Return_Rate`.
 
 3. **Dashboards**:
-   - Created two interactive dashboards in Power BI to visualize findings.
+   - Created two interactive dashboards in Power BI to visualise findings.
 
 ---
 
@@ -82,15 +82,15 @@ The dataset was cleaned by handling missing values (~5% initially), verifying ou
 - **Category Insights**:
   - Categories 3, 5, and 10 have the highest return rates (0.3411, 0.3353, 0.3357).
   - Category 10 has the highest average price (170.08 USD), possibly leading to higher expectations and returns.
-  - Category 3 has the highest average reviews (351.87), suggesting higher purchase volume contributes to more returns.
+  - Category 3 has the highest average reviews (351.87), suggesting that higher purchase volume contributes to more returns.
 - **Stock Impact**:
-  - In-stock and out-of-stock products have similar ratings (3.7319 vs 3.7331), showing stock status doesn’t impact satisfaction.
+  - In-stock and out-of-stock products have similar ratings (3.7319 vs 3.7331), showing that stock status doesn’t impact satisfaction.
 
 ---
 
 ## Answers to Key Questions
 - **Which products generate the most profit?**
-  - Without profit data, used `Product_Price` and `Return_Rate` as proxies. Category 10 (average price: 170.08 USD) might generate high revenue but has a high return rate (0.3357). Category 2 (lowest return rate: 0.3091) could be more profitable.
+  - Without profit data, `Product_Price` and `Return_Rate` were used as proxies. Category 10 (average price: 170.08 USD) might generate high revenue, but has a high return rate (0.3357). Category 2 (lowest return rate: 0.3091) could be more profitable.
 - **Is there a correlation between views, cart adds, and purchases?**
   - Using `Number_of_Reviews` as a proxy for engagement, correlations are weak (e.g., 0.0426 with `Discount_Rate`).
 - **Which products have the highest conversion rates?**
@@ -104,17 +104,17 @@ The dataset was cleaned by handling missing values (~5% initially), verifying ou
 - **Reduce Returns**: Investigate Categories 3, 5, and 10 for quality or expectation mismatches. Category 10’s higher prices might lead to stricter expectations.
 - **Discount Strategy**: Avoid 40–60% discounts unless clearing inventory, as they lead to higher returns (0.3408). Very high discounts (60–80%) have lower returns (0.3113).
 - **Delivery Planning**: Shorter delivery times (0–10 days) have higher return rates (0.3346). Manage expectations for fast deliveries to reduce impulse returns.
-- **Stock Management**: Stock status doesn’t affect ratings, so prioritize stocking high-demand categories like Category 3.
+- **Stock Management**: Stock status doesn’t affect ratings, so prioritise stocking high-demand categories like Category 3.
 
 ---
 
 ## Dashboards in Power BI 📈
 - **Product Performance Dashboard**: Includes a bar chart of `Product_Price` and `Return_Rate` by `Category_ID`, and a scatter plot of `Number_of_Reviews` vs `Return_Rate`.
-  - Screenshot: ![Product Performance Dashboard](Dashboard.pdf)
+  - Screenshot: [Product Performance Dashboard](Dashboard.pdf)
   - Power BI File: [Download Power BI File](Dashboard.pbix)
   <!-- View Online: [Power BI Dashboard](your_power_bi_link)  Replace with actual link -->
 - **Category Insights Dashboard**: Features a pie chart of product distribution by `Category_ID`, a line chart of `Return_Rate` by `Days_to_Deliver` bins, and a table of top categories by estimated revenue (price * reviews).
-  - Screenshot: ![Category Insights Dashboard](Dashboard.pdf)
+  - Screenshot: [Category Insights Dashboard](Dashboard.pdf)
   - Power BI File: [Download Power BI File](Dashboard.pbix)
   <!--  View Online: [Power BI Dashboard](your_power_bi_link)  Replace with actual link -->
 
@@ -123,5 +123,5 @@ The dataset was cleaned by handling missing values (~5% initially), verifying ou
 ## How to Run This Project 🚀
 1. Clone this repository:
    ```bash
-   git clone
-  [https://github.com/AmitKumar-001/E-Commerce-Product-Performance-Dashboard-Analysis/blob/main/eCommerce_Product_Performance.ipynb](https://github.com/AmitKumar-001/E-Commerce-Product-Performance-Dashboard-Analysis/blob/main/eCommerce_EDA.ipynb)
+   git clone [https://github.com/AmitKumar-001/E-Commerce-Product-Performance-Dashboard-Analysis/blob/main/eCommerce_Product_Performance.ipynb](https://github.com/AmitKumar-001/E-Commerce-Product-Performance-Dashboard-Analysis/blob/main/eCommerce_EDA.ipynb)
+   
