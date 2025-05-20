@@ -1,6 +1,6 @@
 # E-Commerce Product Performance Dashboard & Analysis 📊
 
-![Dashboard Overview](dashboards/product_performance_dashboard.png)
+![Dashboard Overview](Dashboard.pdf)
 
 ## Overview
 As a non-technical professional transitioning to a data analyst role, I built this project to demonstrate my skills in data cleaning, exploratory data analysis (EDA), and visualization. This project analyzes a synthetic e-commerce dataset to understand sales patterns, customer preferences, and factors influencing return rates. I created interactive dashboards in Power BI to visualize product performance and category-wise trends, delivering actionable insights to optimize pricing, reduce returns, and improve stock and delivery planning.
@@ -110,17 +110,18 @@ The dataset was cleaned by handling missing values (~5% initially), verifying ou
 
 ## Dashboards in Power BI 📈
 - **Product Performance Dashboard**: Includes a bar chart of `Product_Price` and `Return_Rate` by `Category_ID`, and a scatter plot of `Number_of_Reviews` vs `Return_Rate`.
-  - Screenshot: ![Product Performance Dashboard](dashboards/product_performance_dashboard.png)
-  - Power BI File: [Download Power BI File](dashboards/ecommerce_dashboard.pbix)
-  - View Online: [Power BI Dashboard](your_power_bi_link) <!-- Replace with actual link -->
+  - Screenshot: ![Product Performance Dashboard](Dashboard.pdf)
+  - Power BI File: [Download Power BI File](Dashboard.pbix)
+  <!-- View Online: [Power BI Dashboard](your_power_bi_link)  Replace with actual link -->
 - **Category Insights Dashboard**: Features a pie chart of product distribution by `Category_ID`, a line chart of `Return_Rate` by `Days_to_Deliver` bins, and a table of top categories by estimated revenue (price * reviews).
-  - Screenshot: ![Category Insights Dashboard](dashboards/category_insights_dashboard.png)
-  - Power BI File: [Download Power BI File](dashboards/ecommerce_dashboard.pbix)
-  - View Online: [Power BI Dashboard](your_power_bi_link) <!-- Replace with actual link -->
+  - Screenshot: ![Category Insights Dashboard](Dashboard.pdf)
+  - Power BI File: [Download Power BI File](Dashboard.pbix)
+  <!--  View Online: [Power BI Dashboard](your_power_bi_link)  Replace with actual link -->
 
 ---
 
 ## How to Run This Project 🚀
 1. Clone this repository:
    ```bash
-   git clone https://github.com/AmitKumar-001/E-Commerce-Product-Performance-Dashboard-Analysis/blob/main/eCommerce_Product_Performance.ipynb
+   git clone
+  [https://github.com/AmitKumar-001/E-Commerce-Product-Performance-Dashboard-Analysis/blob/main/eCommerce_Product_Performance.ipynb](https://github.com/AmitKumar-001/E-Commerce-Product-Performance-Dashboard-Analysis/blob/main/eCommerce_EDA.ipynb)
