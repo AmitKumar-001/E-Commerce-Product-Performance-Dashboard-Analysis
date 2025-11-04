@@ -3,7 +3,7 @@
 [Dashboard Overview](Dashboard.pdf)
 
 ## Overview
-As a non-technical professional transitioning to a data analyst role, I built this project to demonstrate my skills in data cleaning, exploratory data analysis (EDA), and visualisation. This project analyses a synthetic e-commerce dataset to understand sales patterns, customer preferences, and factors influencing return rates. I created interactive dashboards in Power BI to visualise product performance and category-wise trends, delivering actionable insights to optimise pricing, reduce returns, and improve stock and delivery planning.
+I built this project to demonstrate my skills in data cleaning, exploratory data analysis (EDA), and visualisation. This project analyses a synthetic e-commerce dataset to understand sales patterns, customer preferences, and factors influencing return rates. I created interactive dashboards in Power BI to visualise product performance and category-wise trends, delivering actionable insights to optimise pricing, reduce returns, and improve stock and delivery planning.
 
 ---
 
